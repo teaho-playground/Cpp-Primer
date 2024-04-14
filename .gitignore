@@ -34,4 +34,7 @@
 *tags*
 
 # vim
-*.swp
+*.swp 
+
+ex*
+!ex*.cpp
