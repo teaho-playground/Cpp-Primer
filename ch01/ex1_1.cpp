@@ -1,4 +1,7 @@
+#include <string>
+
 int main()
 {
-    return 0;
+    int abc = 123;
+    return abc;
 }
