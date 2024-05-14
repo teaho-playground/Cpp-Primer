@@ -38,3 +38,5 @@
 
 ex*
 !ex*.cpp
+
+.idea/
