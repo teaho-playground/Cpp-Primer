@@ -38,5 +38,5 @@
 
 ex*
 !ex*.cpp
-
+!ex*.h
 .idea/
