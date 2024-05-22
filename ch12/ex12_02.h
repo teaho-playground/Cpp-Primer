@@ -11,6 +11,7 @@
 #include <initializer_list>
 #include <memory>
 #include <exception>
+#include <stdexcept>
 
 using std::vector; using std::string;
 
