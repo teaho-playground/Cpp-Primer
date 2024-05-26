@@ -62,6 +62,10 @@ public:
         check(0, "back on empty StrBlob");
         return data->back();
     }
+    // added a public member function to StrBlob and StrBlobPrts
+    long count() {
+        return data.use_count(); // and wptr.use_count();
+    }
 
 private:
     void check(size_type i, const string &msg) const {

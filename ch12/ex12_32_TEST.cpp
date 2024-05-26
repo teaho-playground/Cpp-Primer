@@ -7,7 +7,7 @@
 //  The TextQuery and QueryResult classes use only capabilities that we have already covered.
 //  Without looking ahead, write your own versions of these classes.
 
-#include "ex12_32.h"
+#include "ex12_32.cpp"
 #include <iostream>
 
 void runQueries(std::ifstream &infile)
