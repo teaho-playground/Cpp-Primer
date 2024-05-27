@@ -31,6 +31,9 @@ public:
     ~HasPtr() {
         delete ps;
     } 
+    auto getPs() {
+        return *ps;
+    }
 private:
     std::string *ps;
     int i;
